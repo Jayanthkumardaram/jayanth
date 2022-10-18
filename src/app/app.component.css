@@ -1,0 +1,53 @@
+.container{
+    border:1px #DC143C;
+    width:800px;
+    height:450px;
+    background:#008B8B ;
+    border-radius: 5px;
+    position: absolute    ;
+    margin-top: 100px;
+    margin-left: 300px;
+    box-shadow: 7px 5px 7px 5px;
+    text-decoration-color: "red";
+   
+   
+    
+
+}
+.GENDER{
+    background: #778899;
+    color: #DC143C;
+
+}
+.form-group{
+    color: #DC143C;
+    background: #778899;
+}
+.DEPARTEMENT{
+    background: #778899;
+    color: #DC143C;
+
+}
+.GRADUATION{
+    background: #778899;
+    color: #DC143C;
+}
+.course{
+    background: #778899;
+    color: #DC143C;
+
+}
+.submit{
+    color: #DC143C;
+    text-align: center;
+}
+body{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    background:url('https://cdn.acodez.in/wp-content/uploads/2018/06/best-software-development-methodologies-1.jpg');
+    background-size: cover;
+}
+
+
