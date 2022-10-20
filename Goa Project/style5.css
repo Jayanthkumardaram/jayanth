@@ -1,0 +1,16 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.jay{
+	width: 40%;
+	float: left;
+	margin-left: 30px;
+	margin-right: 40px;
+	padding: 30px;
+
+}
+.jay img{
+	height: 400px;
+}

@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	padding: 8px 15px;
+	background: deeppink;
+	border-radius: 30px;
+	color: whitesmoke;
+}
+header{
+	color: blueviolet;
+	width: 100vw;
+	height: 100vh;
+	background: url(https://images.unsplash.com/photo-1453872302360-eed3c5f8ff66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+		}
+.header-content{
+			
+			color:#afeeee;
+			text-align: center;
+			margin-top: 7%;
+}
+.header-content h2{
+	font-size: 4vmin;
+}
+.header-content h1{
+	font-size: 7vmin;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.line{
+	width: 150px;
+	height: 4px;
+	background: deeppink;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+
+nav{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px 8%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 40px;
+	position: relative;
+	left:770px;
+	top: 20%;
+}
+nav ul h1{
+	font-size: 4vmin;
+	
+}
+nav ul li a{
+	text-decoration: none;
+	color:white;
+	font-size: 17px;
+	transition: 0.6s;
+	
+}
+nav ul li a:hover{
+	-webkit-text-stroke: 1px white;
+	color: transparent;
+}
